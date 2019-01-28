@@ -5,7 +5,8 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": true,
@@ -24,7 +25,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x834ff739"
     },
     {
       "constant": false,
@@ -38,7 +40,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x112940f9"
     },
     {
       "constant": false,
@@ -47,17 +50,18 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x61e6982d"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610149806100206000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063112940f91461005c57806361e6982d1461009f578063834ff739146100b6575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b005b3480156100ab57600080fd5b506100b4610114565b005b3480156100c257600080fd5b506100f7600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610116565b604051808215151515815260200191505060405180910390f35b50565b565b60009190505600a165627a7a72305820e549a13909234f8df335973b40713c3ed13615f8dea0e52a3cf56258f33d0d500029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063112940f91461005c57806361e6982d1461009f578063834ff739146100b6575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b005b3480156100ab57600080fd5b506100b4610114565b005b3480156100c257600080fd5b506100f7600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610116565b604051808215151515815260200191505060405180910390f35b50565b565b60009190505600a165627a7a72305820e549a13909234f8df335973b40713c3ed13615f8dea0e52a3cf56258f33d0d500029",
+  "bytecode": "0x608060405234801561001057600080fd5b50610149806100206000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063112940f91461005c57806361e6982d1461009f578063834ff739146100b6575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b005b3480156100ab57600080fd5b506100b4610114565b005b3480156100c257600080fd5b506100f7600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610116565b604051808215151515815260200191505060405180910390f35b50565b565b60009190505600a165627a7a7230582028e423a2c19ca8a3527dc1de58a38b4e01149e1dfdb67926a10a861340daf53b0029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063112940f91461005c57806361e6982d1461009f578063834ff739146100b6575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b005b3480156100ab57600080fd5b506100b4610114565b005b3480156100c257600080fd5b506100f7600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610116565b604051808215151515815260200191505060405180910390f35b50565b565b60009190505600a165627a7a7230582028e423a2c19ca8a3527dc1de58a38b4e01149e1dfdb67926a10a861340daf53b0029",
   "sourceMap": "156:1106:1:-;;;412:31;8:9:-1;5:2;;;30:1;27;20:12;5:2;412:31:1;156:1106;;;;;;",
   "deployedSourceMap": "156:1106:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;763:68;;8:9:-1;5:2;;;30:1;27;20:12;5:2;763:68:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;899:45;;8:9:-1;5:2;;;30:1;27;20:12;5:2;899:45:1;;;;;;628:74;;8:9:-1;5:2;;;30:1;27;20:12;5:2;628:74:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;763:68;;:::o;899:45::-;:::o;628:74::-;686:4;628:74;;;:::o",
   "source": "pragma solidity ^0.4.24;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'ConsumerRole' to manage this role - add, remove, check\ncontract ConsumerRole {\n\n  // Define 2 events, one for Adding, and other for Removing\n\n  // Define a struct 'consumers' by inheriting from 'Roles' library, struct Role\n\n  // In the constructor make the address that deploys this contract the 1st consumer\n  constructor() public {\n    \n  }\n\n  // Define a modifier that checks to see if msg.sender has the appropriate role\n  modifier onlyConsumer() {\n    \n    _;\n  }\n\n  // Define a function 'isConsumer' to check this role\n  function isConsumer(address account) public view returns (bool) {\n    \n  }\n\n  // Define a function 'addConsumer' that adds this role\n  function addConsumer(address account) public onlyConsumer {\n    \n  }\n\n  // Define a function 'renounceConsumer' to renounce this role\n  function renounceConsumer() public {\n    \n  }\n\n  // Define an internal function '_addConsumer' to add this role, called by 'addConsumer'\n  function _addConsumer(address account) internal {\n    \n  }\n\n  // Define an internal function '_removeConsumer' to remove this role, called by 'removeConsumer'\n  function _removeConsumer(address account) internal {\n    \n  }\n}",
-  "sourcePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/ConsumerRole.sol",
+  "sourcePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/ConsumerRole.sol",
   "ast": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/ConsumerRole.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/ConsumerRole.sol",
     "exportedSymbols": {
       "ConsumerRole": [
         100
@@ -78,7 +82,7 @@
         "src": "0:24:1"
       },
       {
-        "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/Roles.sol",
         "file": "./Roles.sol",
         "id": 59,
         "nodeType": "ImportDirective",
@@ -494,7 +498,7 @@
     "src": "0:1262:1"
   },
   "legacyAST": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/ConsumerRole.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/ConsumerRole.sol",
     "exportedSymbols": {
       "ConsumerRole": [
         100
@@ -515,7 +519,7 @@
         "src": "0:24:1"
       },
       {
-        "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/Roles.sol",
         "file": "./Roles.sol",
         "id": 59,
         "nodeType": "ImportDirective",
@@ -952,8 +956,14 @@
       "links": {},
       "address": "0xa65b87754e0a73860aa6b7eb6e95d79cd2d893d2",
       "transactionHash": "0xfcd87bc60f8d1fba1ac9b3677afa7f3d42f195b76cc260d95c9be748b0233e1c"
+    },
+    "1548701970487": {
+      "events": {},
+      "links": {},
+      "address": "0xA65B87754E0A73860AA6B7eb6E95D79CD2d893d2",
+      "transactionHash": "0xfcd93c2ea0e92a546302f6b572c4f0f2579e54214a1b67152f06764e3807af81"
     }
   },
-  "schemaVersion": "2.0.1",
-  "updatedAt": "2019-01-27T10:22:53.124Z"
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-01-28T19:03:07.756Z"
 }

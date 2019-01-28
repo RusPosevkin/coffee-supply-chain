@@ -5,7 +5,8 @@
       "inputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "anonymous": false,
@@ -17,7 +18,8 @@
         }
       ],
       "name": "Harvested",
-      "type": "event"
+      "type": "event",
+      "signature": "0x8e55ccfc9778ff8eba1646d765cf1982537ce0f9257054a17b48aad745250183"
     },
     {
       "anonymous": false,
@@ -29,7 +31,8 @@
         }
       ],
       "name": "Processed",
-      "type": "event"
+      "type": "event",
+      "signature": "0x5afe3b1bf87069693c075da5c22a98d63d1aef98a30dbbe538d0781a98b77ee5"
     },
     {
       "anonymous": false,
@@ -41,7 +44,8 @@
         }
       ],
       "name": "Packed",
-      "type": "event"
+      "type": "event",
+      "signature": "0x9b3b66e2380b690bae22c73ef1428fb0c91e72fe14a4b6defa13035214187aff"
     },
     {
       "anonymous": false,
@@ -53,7 +57,8 @@
         }
       ],
       "name": "ForSale",
-      "type": "event"
+      "type": "event",
+      "signature": "0xa96ae0fc3224ebd79eebfe54bd130cc9cb94416cddd1f2386115e00b72532468"
     },
     {
       "anonymous": false,
@@ -65,7 +70,8 @@
         }
       ],
       "name": "Sold",
-      "type": "event"
+      "type": "event",
+      "signature": "0x92f64ca637d023f354075a4be751b169c1a8a9ccb6d33cdd0cb3520543995727"
     },
     {
       "anonymous": false,
@@ -77,7 +83,8 @@
         }
       ],
       "name": "Shipped",
-      "type": "event"
+      "type": "event",
+      "signature": "0xf00b9a5725b80c54016f42114f6ed7792d22eecb116011c4afac29c57bef6c95"
     },
     {
       "anonymous": false,
@@ -89,7 +96,8 @@
         }
       ],
       "name": "Received",
-      "type": "event"
+      "type": "event",
+      "signature": "0xa8142743f8f70a4c26f3691cf4ed59718381fb2f18070ec52be1f1022d855557"
     },
     {
       "anonymous": false,
@@ -101,7 +109,8 @@
         }
       ],
       "name": "Purchased",
-      "type": "event"
+      "type": "event",
+      "signature": "0x653d56639fee6b566a5c804764e9689de38645f0b733df89a36a1b7b42173dd8"
     },
     {
       "constant": false,
@@ -110,7 +119,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x41c0e1b5"
     },
     {
       "constant": false,
@@ -148,7 +158,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xbdd8a6a8"
     },
     {
       "constant": false,
@@ -162,7 +173,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x49dae766"
     },
     {
       "constant": false,
@@ -176,7 +188,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xf30fc480"
     },
     {
       "constant": false,
@@ -194,7 +207,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x2d923561"
     },
     {
       "constant": false,
@@ -208,7 +222,8 @@
       "outputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xe7fb74c7"
     },
     {
       "constant": false,
@@ -222,7 +237,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xf61c899a"
     },
     {
       "constant": false,
@@ -236,7 +252,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xa26be999"
     },
     {
       "constant": false,
@@ -250,7 +267,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xd38ea5bf"
     },
     {
       "constant": true,
@@ -297,7 +315,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x77c45913"
     },
     {
       "constant": true,
@@ -348,17 +367,18 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x66225ff9"
     }
   ],
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001600281905550600180819055506108bc806100626000396000f3006080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d923561146100b457806341c0e1b5146100eb57806349dae7661461010257806366225ff91461012f57806377c4591314610291578063a26be999146104ef578063bdd8a6a81461051c578063d38ea5bf146106c7578063e7fb74c7146106f4578063f30fc48014610714578063f61c899a14610741575b600080fd5b3480156100c057600080fd5b506100e9600480360381019080803590602001909291908035906020019092919050505061076e565b005b3480156100f757600080fd5b50610100610772565b005b34801561010e57600080fd5b5061012d60048036038101908080359060200190929190505050610803565b005b34801561013b57600080fd5b5061015a60048036038101908080359060200190929190505050610806565b604051808a8152602001898152602001888152602001806020018781526020018681526020018573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561024e578082015181840152602081019050610233565b50505050905090810190601f16801561027b5780820380516001836020036101000a031916815260200191505b509a505050505050505050505060405180910390f35b34801561029d57600080fd5b506102bc6004803603810190808035906020019092919050505061083d565b604051808981526020018881526020018773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001806020018060200180602001858103855289818151815260200191508051906020019080838360005b8381101561037857808201518184015260208101905061035d565b50505050905090810190601f1680156103a55780820380516001836020036101000a031916815260200191505b50858103845288818151815260200191508051906020019080838360005b838110156103de5780820151818401526020810190506103c3565b50505050905090810190601f16801561040b5780820380516001836020036101000a031916815260200191505b50858103835287818151815260200191508051906020019080838360005b83811015610444578082015181840152602081019050610429565b50505050905090810190601f1680156104715780820380516001836020036101000a031916815260200191505b50858103825286818151815260200191508051906020019080838360005b838110156104aa57808201518184015260208101905061048f565b50505050905090810190601f1680156104d75780820380516001836020036101000a031916815260200191505b509c5050505050505050505050505060405180910390f35b3480156104fb57600080fd5b5061051a6004803603810190808035906020019092919050505061086c565b005b34801561052857600080fd5b506106c560048036038101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061086f565b005b3480156106d357600080fd5b506106f260048036038101908080359060200190929190505050610884565b005b61071260048036038101908080359060200190929190505050610887565b005b34801561072057600080fd5b5061073f6004803603810190808035906020019092919050505061088a565b005b34801561074d57600080fd5b5061076c6004803603810190808035906020019092919050505061088d565b005b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610801576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b50565b6000806000606060008060008060008888888888888888889850985098509850985098509850985098509193959799909294969850565b600080600080606080606080878787878787878797509750975097509750975097509750919395975091939597565b50565b60016002540160028190555050505050505050565b50565b50565b50565b505600a165627a7a72305820d028cbf6eda63adf2ce2e01997935d9ea7dc68b8559da296ec68df7e5615750b0029",
-  "deployedBytecode": "0x6080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d923561146100b457806341c0e1b5146100eb57806349dae7661461010257806366225ff91461012f57806377c4591314610291578063a26be999146104ef578063bdd8a6a81461051c578063d38ea5bf146106c7578063e7fb74c7146106f4578063f30fc48014610714578063f61c899a14610741575b600080fd5b3480156100c057600080fd5b506100e9600480360381019080803590602001909291908035906020019092919050505061076e565b005b3480156100f757600080fd5b50610100610772565b005b34801561010e57600080fd5b5061012d60048036038101908080359060200190929190505050610803565b005b34801561013b57600080fd5b5061015a60048036038101908080359060200190929190505050610806565b604051808a8152602001898152602001888152602001806020018781526020018681526020018573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561024e578082015181840152602081019050610233565b50505050905090810190601f16801561027b5780820380516001836020036101000a031916815260200191505b509a505050505050505050505060405180910390f35b34801561029d57600080fd5b506102bc6004803603810190808035906020019092919050505061083d565b604051808981526020018881526020018773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001806020018060200180602001858103855289818151815260200191508051906020019080838360005b8381101561037857808201518184015260208101905061035d565b50505050905090810190601f1680156103a55780820380516001836020036101000a031916815260200191505b50858103845288818151815260200191508051906020019080838360005b838110156103de5780820151818401526020810190506103c3565b50505050905090810190601f16801561040b5780820380516001836020036101000a031916815260200191505b50858103835287818151815260200191508051906020019080838360005b83811015610444578082015181840152602081019050610429565b50505050905090810190601f1680156104715780820380516001836020036101000a031916815260200191505b50858103825286818151815260200191508051906020019080838360005b838110156104aa57808201518184015260208101905061048f565b50505050905090810190601f1680156104d75780820380516001836020036101000a031916815260200191505b509c5050505050505050505050505060405180910390f35b3480156104fb57600080fd5b5061051a6004803603810190808035906020019092919050505061086c565b005b34801561052857600080fd5b506106c560048036038101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061086f565b005b3480156106d357600080fd5b506106f260048036038101908080359060200190929190505050610884565b005b61071260048036038101908080359060200190929190505050610887565b005b34801561072057600080fd5b5061073f6004803603810190808035906020019092919050505061088a565b005b34801561074d57600080fd5b5061076c6004803603810190808035906020019092919050505061088d565b005b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610801576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b50565b6000806000606060008060008060008888888888888888889850985098509850985098509850985098509193959799909294969850565b600080600080606080606080878787878787878797509750975097509750975097509750919395975091939597565b50565b60016002540160028190555050505050505050565b50565b50565b50565b505600a165627a7a72305820d028cbf6eda63adf2ce2e01997935d9ea7dc68b8559da296ec68df7e5615750b0029",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001600281905550600180819055506108bc806100626000396000f3006080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d923561146100b457806341c0e1b5146100eb57806349dae7661461010257806366225ff91461012f57806377c4591314610291578063a26be999146104ef578063bdd8a6a81461051c578063d38ea5bf146106c7578063e7fb74c7146106f4578063f30fc48014610714578063f61c899a14610741575b600080fd5b3480156100c057600080fd5b506100e9600480360381019080803590602001909291908035906020019092919050505061076e565b005b3480156100f757600080fd5b50610100610772565b005b34801561010e57600080fd5b5061012d60048036038101908080359060200190929190505050610803565b005b34801561013b57600080fd5b5061015a60048036038101908080359060200190929190505050610806565b604051808a8152602001898152602001888152602001806020018781526020018681526020018573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561024e578082015181840152602081019050610233565b50505050905090810190601f16801561027b5780820380516001836020036101000a031916815260200191505b509a505050505050505050505060405180910390f35b34801561029d57600080fd5b506102bc6004803603810190808035906020019092919050505061083d565b604051808981526020018881526020018773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001806020018060200180602001858103855289818151815260200191508051906020019080838360005b8381101561037857808201518184015260208101905061035d565b50505050905090810190601f1680156103a55780820380516001836020036101000a031916815260200191505b50858103845288818151815260200191508051906020019080838360005b838110156103de5780820151818401526020810190506103c3565b50505050905090810190601f16801561040b5780820380516001836020036101000a031916815260200191505b50858103835287818151815260200191508051906020019080838360005b83811015610444578082015181840152602081019050610429565b50505050905090810190601f1680156104715780820380516001836020036101000a031916815260200191505b50858103825286818151815260200191508051906020019080838360005b838110156104aa57808201518184015260208101905061048f565b50505050905090810190601f1680156104d75780820380516001836020036101000a031916815260200191505b509c5050505050505050505050505060405180910390f35b3480156104fb57600080fd5b5061051a6004803603810190808035906020019092919050505061086c565b005b34801561052857600080fd5b506106c560048036038101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061086f565b005b3480156106d357600080fd5b506106f260048036038101908080359060200190929190505050610884565b005b61071260048036038101908080359060200190929190505050610887565b005b34801561072057600080fd5b5061073f6004803603810190808035906020019092919050505061088a565b005b34801561074d57600080fd5b5061076c6004803603810190808035906020019092919050505061088d565b005b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610801576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b50565b6000806000606060008060008060008888888888888888889850985098509850985098509850985098509193959799909294969850565b600080600080606080606080878787878787878797509750975097509750975097509750919395975091939597565b50565b60016002540160028190555050505050505050565b50565b50565b50565b505600a165627a7a723058200c0e78fd29bd17b3eeb5d87a1f6dc167cdac038aa3cf938566fa043afb529fb10029",
+  "deployedBytecode": "0x6080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d923561146100b457806341c0e1b5146100eb57806349dae7661461010257806366225ff91461012f57806377c4591314610291578063a26be999146104ef578063bdd8a6a81461051c578063d38ea5bf146106c7578063e7fb74c7146106f4578063f30fc48014610714578063f61c899a14610741575b600080fd5b3480156100c057600080fd5b506100e9600480360381019080803590602001909291908035906020019092919050505061076e565b005b3480156100f757600080fd5b50610100610772565b005b34801561010e57600080fd5b5061012d60048036038101908080359060200190929190505050610803565b005b34801561013b57600080fd5b5061015a60048036038101908080359060200190929190505050610806565b604051808a8152602001898152602001888152602001806020018781526020018681526020018573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561024e578082015181840152602081019050610233565b50505050905090810190601f16801561027b5780820380516001836020036101000a031916815260200191505b509a505050505050505050505060405180910390f35b34801561029d57600080fd5b506102bc6004803603810190808035906020019092919050505061083d565b604051808981526020018881526020018773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001806020018060200180602001858103855289818151815260200191508051906020019080838360005b8381101561037857808201518184015260208101905061035d565b50505050905090810190601f1680156103a55780820380516001836020036101000a031916815260200191505b50858103845288818151815260200191508051906020019080838360005b838110156103de5780820151818401526020810190506103c3565b50505050905090810190601f16801561040b5780820380516001836020036101000a031916815260200191505b50858103835287818151815260200191508051906020019080838360005b83811015610444578082015181840152602081019050610429565b50505050905090810190601f1680156104715780820380516001836020036101000a031916815260200191505b50858103825286818151815260200191508051906020019080838360005b838110156104aa57808201518184015260208101905061048f565b50505050905090810190601f1680156104d75780820380516001836020036101000a031916815260200191505b509c5050505050505050505050505060405180910390f35b3480156104fb57600080fd5b5061051a6004803603810190808035906020019092919050505061086c565b005b34801561052857600080fd5b506106c560048036038101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061086f565b005b3480156106d357600080fd5b506106f260048036038101908080359060200190929190505050610884565b005b61071260048036038101908080359060200190929190505050610887565b005b34801561072057600080fd5b5061073f6004803603810190808035906020019092919050505061088a565b005b34801561074d57600080fd5b5061076c6004803603810190808035906020019092919050505061088d565b005b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610801576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b50565b6000806000606060008060008060008888888888888888889850985098509850985098509850985098509193959799909294969850565b600080600080606080606080878787878787878797509750975097509750975097509750919395975091939597565b50565b60016002540160028190555050505050505050565b50565b50565b50565b505600a165627a7a723058200c0e78fd29bd17b3eeb5d87a1f6dc167cdac038aa3cf938566fa043afb529fb10029",
   "sourceMap": "60:8908:6:-;;;4194:10;4186:5;;:18;;;;;;;;;;;;;;;;;;4216:1;4210:3;:7;;;;4229:1;4223:3;:7;;;;60:8908;;;;;;",
   "deployedSourceMap": "60:8908:6:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5578:271;;8:9:-1;5:2;;;30:1;27;20:12;5:2;5578:271:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4281:92;;8:9:-1;5:2;;;30:1;27;20:12;5:2;4281:92:6;;;;;;4890:261;;8:9:-1;5:2;;;30:1;27;20:12;5:2;4890:261:6;;;;;;;;;;;;;;;;;;;;;;;;;;8502:464;;8:9:-1;5:2;;;30:1;27;20:12;5:2;8502:464:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;8502:464:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;7950:482;;8:9:-1;5:2;;;30:1;27;20:12;5:2;7950:482:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;7950:482:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;7950:482:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;7950:482:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;7950:482:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;7096:313;;8:9:-1;5:2;;;30:1;27;20:12;5:2;7096:313:6;;;;;;;;;;;;;;;;;;;;;;;;;;4463:336;;8:9:-1;5:2;;;30:1;27;20:12;5:2;4463:336:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;7566:314;;8:9:-1;5:2;;;30:1;27;20:12;5:2;7566:314:6;;;;;;;;;;;;;;;;;;;;;;;;;;6109:416;;;;;;;;;;;;;;;;;;;;;;;;;;5235:258;;8:9:-1;5:2;;;30:1;27;20:12;5:2;5235:258:6;;;;;;;;;;;;;;;;;;;;;;;;;;6674:268;;8:9:-1;5:2;;;30:1;27;20:12;5:2;6674:268:6;;;;;;;;;;;;;;;;;;;;;;;;;;5578:271;;;:::o;4281:92::-;4328:5;;;;;;;;;;;4314:19;;:10;:19;;;4310:59;;;4356:5;;;;;;;;;;;4343:19;;;4310:59;4281:92::o;4890:261::-;;:::o;8502:464::-;8568:15;8587;8606:17;8627:20;8651;8675:17;8696:21;8721:18;8743;8836:7;8847;8858:9;8871:12;8887;8903:9;8916:13;8933:10;8947;8822:139;;;;;;;;;;;;;;;;;;8502:464;;;;;;;;;;;:::o;7950:482::-;8016:15;8035;8054;8073:22;8099;8125:29;8158:26;8188:27;8288:7;8299;8310;8321:14;8339;8357:21;8382:18;8404:19;8274:153;;;;;;;;;;;;;;;;7950:482;;;;;;;;;:::o;7096:313::-;;:::o;4463:336::-;4754:1;4748:3;;:7;4742:3;:13;;;;4463:336;;;;;;;:::o;7566:314::-;;:::o;6109:416::-;;:::o;5235:258::-;;:::o;6674:268::-;;:::o",
   "source": "pragma solidity ^0.4.24;\n// Define a contract 'Supplychain'\ncontract SupplyChain {\n\n  // Define 'owner'\n  address owner;\n\n  // Define a variable called 'upc' for Universal Product Code (UPC)\n  uint  upc;\n\n  // Define a variable called 'sku' for Stock Keeping Unit (SKU)\n  uint  sku;\n\n  // Define a public mapping 'items' that maps the UPC to an Item.\n  mapping (uint => Item) items;\n\n  // Define a public mapping 'itemsHistory' that maps the UPC to an array of TxHash, \n  // that track its journey through the supply chain -- to be sent from DApp.\n  mapping (uint => string[]) itemsHistory;\n  \n  // Define enum 'State' with the following values:\n  enum State \n  { \n    Harvested,  // 0\n    Processed,  // 1\n    Packed,     // 2\n    ForSale,    // 3\n    Sold,       // 4\n    Shipped,    // 5\n    Received,   // 6\n    Purchased   // 7\n    }\n\n  State constant defaultState = State.Harvested;\n\n  // Define a struct 'Item' with the following fields:\n  struct Item {\n    uint    sku;  // Stock Keeping Unit (SKU)\n    uint    upc; // Universal Product Code (UPC), generated by the Farmer, goes on the package, can be verified by the Consumer\n    address ownerID;  // Metamask-Ethereum address of the current owner as the product moves through 8 stages\n    address originFarmerID; // Metamask-Ethereum address of the Farmer\n    string  originFarmName; // Farmer Name\n    string  originFarmInformation;  // Farmer Information\n    string  originFarmLatitude; // Farm Latitude\n    string  originFarmLongitude;  // Farm Longitude\n    uint    productID;  // Product ID potentially a combination of upc + sku\n    string  productNotes; // Product Notes\n    uint    productPrice; // Product Price\n    State   itemState;  // Product State as represented in the enum above\n    address distributorID;  // Metamask-Ethereum address of the Distributor\n    address retailerID; // Metamask-Ethereum address of the Retailer\n    address consumerID; // Metamask-Ethereum address of the Consumer\n  }\n\n  // Define 8 events with the same 8 state values and accept 'upc' as input argument\n  event Harvested(uint upc);\n  event Processed(uint upc);\n  event Packed(uint upc);\n  event ForSale(uint upc);\n  event Sold(uint upc);\n  event Shipped(uint upc);\n  event Received(uint upc);\n  event Purchased(uint upc);\n\n  // Define a modifer that checks to see if msg.sender == owner of the contract\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // Define a modifer that verifies the Caller\n  modifier verifyCaller (address _address) {\n    require(msg.sender == _address); \n    _;\n  }\n\n  // Define a modifier that checks if the paid amount is sufficient to cover the price\n  modifier paidEnough(uint _price) { \n    require(msg.value >= _price); \n    _;\n  }\n  \n  // Define a modifier that checks the price and refunds the remaining balance\n  modifier checkValue(uint _upc) {\n    _;\n    uint _price = items[_upc].productPrice;\n    uint amountToReturn = msg.value - _price;\n    items[_upc].consumerID.transfer(amountToReturn);\n  }\n\n  // Define a modifier that checks if an item.state of a upc is Harvested\n  modifier harvested(uint _upc) {\n    require(items[_upc].itemState == State.Harvested);\n    _;\n  }\n\n  // Define a modifier that checks if an item.state of a upc is Processed\n  modifier processed(uint _upc) {\n\n    _;\n  }\n  \n  // Define a modifier that checks if an item.state of a upc is Packed\n  modifier packed(uint _upc) {\n\n    _;\n  }\n\n  // Define a modifier that checks if an item.state of a upc is ForSale\n  modifier forSale(uint _upc) {\n\n    _;\n  }\n\n  // Define a modifier that checks if an item.state of a upc is Sold\n  modifier sold(uint _upc) {\n\n    _;\n  }\n  \n  // Define a modifier that checks if an item.state of a upc is Shipped\n  modifier shipped(uint _upc) {\n\n    _;\n  }\n\n  // Define a modifier that checks if an item.state of a upc is Received\n  modifier received(uint _upc) {\n\n    _;\n  }\n\n  // Define a modifier that checks if an item.state of a upc is Purchased\n  modifier purchased(uint _upc) {\n    \n    _;\n  }\n\n  // In the constructor set 'owner' to the address that instantiated the contract\n  // and set 'sku' to 1\n  // and set 'upc' to 1\n  constructor() public payable {\n    owner = msg.sender;\n    sku = 1;\n    upc = 1;\n  }\n\n  // Define a function 'kill' if required\n  function kill() public {\n    if (msg.sender == owner) {\n      selfdestruct(owner);\n    }\n  }\n\n  // Define a function 'harvestItem' that allows a farmer to mark an item 'Harvested'\n  function harvestItem(uint _upc, address _originFarmerID, string _originFarmName, string _originFarmInformation, string  _originFarmLatitude, string  _originFarmLongitude, string  _productNotes) public \n  {\n    // Add the new item as part of Harvest\n    \n    // Increment sku\n    sku = sku + 1;\n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'processtItem' that allows a farmer to mark an item 'Processed'\n  function processItem(uint _upc) public \n  // Call modifier to check if upc has passed previous supply chain stage\n  \n  // Call modifier to verify caller of this function\n  \n  {\n    // Update the appropriate fields\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'packItem' that allows a farmer to mark an item 'Packed'\n  function packItem(uint _upc) public \n  // Call modifier to check if upc has passed previous supply chain stage\n  \n  // Call modifier to verify caller of this function\n  \n  {\n    // Update the appropriate fields\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'sellItem' that allows a farmer to mark an item 'ForSale'\n  function sellItem(uint _upc, uint _price) public \n  // Call modifier to check if upc has passed previous supply chain stage\n  \n  // Call modifier to verify caller of this function\n  \n  {\n    // Update the appropriate fields\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'buyItem' that allows the disributor to mark an item 'Sold'\n  // Use the above defined modifiers to check if the item is available for sale, if the buyer has paid enough, \n  // and any excess ether sent is refunded back to the buyer\n  function buyItem(uint _upc) public payable \n    // Call modifier to check if upc has passed previous supply chain stage\n    \n    // Call modifer to check if buyer has paid enough\n    \n    // Call modifer to send any excess ether back to buyer\n    \n    {\n    \n    // Update the appropriate fields - ownerID, distributorID, itemState\n    \n    // Transfer money to farmer\n    \n    // emit the appropriate event\n    \n  }\n\n  // Define a function 'shipItem' that allows the distributor to mark an item 'Shipped'\n  // Use the above modifers to check if the item is sold\n  function shipItem(uint _upc) public \n    // Call modifier to check if upc has passed previous supply chain stage\n    \n    // Call modifier to verify caller of this function\n    \n    {\n    // Update the appropriate fields\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'receiveItem' that allows the retailer to mark an item 'Received'\n  // Use the above modifiers to check if the item is shipped\n  function receiveItem(uint _upc) public \n    // Call modifier to check if upc has passed previous supply chain stage\n    \n    // Access Control List enforced by calling Smart Contract / DApp\n    {\n    // Update the appropriate fields - ownerID, retailerID, itemState\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'purchaseItem' that allows the consumer to mark an item 'Purchased'\n  // Use the above modifiers to check if the item is received\n  function purchaseItem(uint _upc) public \n    // Call modifier to check if upc has passed previous supply chain stage\n    \n    // Access Control List enforced by calling Smart Contract / DApp\n    {\n    // Update the appropriate fields - ownerID, consumerID, itemState\n    \n    // Emit the appropriate event\n    \n  }\n\n  // Define a function 'fetchItemBufferOne' that fetches the data\n  function fetchItemBufferOne(uint _upc) public view returns \n  (\n  uint    itemSKU,\n  uint    itemUPC,\n  address ownerID,\n  address originFarmerID,\n  string  originFarmName,\n  string  originFarmInformation,\n  string  originFarmLatitude,\n  string  originFarmLongitude\n  ) \n  {\n  // Assign values to the 8 parameters\n  \n    \n  return \n  (\n  itemSKU,\n  itemUPC,\n  ownerID,\n  originFarmerID,\n  originFarmName,\n  originFarmInformation,\n  originFarmLatitude,\n  originFarmLongitude\n  );\n  }\n\n  // Define a function 'fetchItemBufferTwo' that fetches the data\n  function fetchItemBufferTwo(uint _upc) public view returns \n  (\n  uint    itemSKU,\n  uint    itemUPC,\n  uint    productID,\n  string  productNotes,\n  uint    productPrice,\n  uint    itemState,\n  address distributorID,\n  address retailerID,\n  address consumerID\n  ) \n  {\n    // Assign values to the 9 parameters\n  \n    \n  return \n  (\n  itemSKU,\n  itemUPC,\n  productID,\n  productNotes,\n  productPrice,\n  itemState,\n  distributorID,\n  retailerID,\n  consumerID\n  );\n  }\n}\n",
-  "sourcePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeebase/SupplyChain.sol",
+  "sourcePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeebase/SupplyChain.sol",
   "ast": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeebase/SupplyChain.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeebase/SupplyChain.sol",
     "exportedSymbols": {
       "SupplyChain": [
         768
@@ -4756,7 +4776,7 @@
     "src": "0:8969:6"
   },
   "legacyAST": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeebase/SupplyChain.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeebase/SupplyChain.sol",
     "exportedSymbols": {
       "SupplyChain": [
         768
@@ -9175,8 +9195,14 @@
       "links": {},
       "address": "0x23e2b13b08a22e9eee431f862ec7a17ab1e99b98",
       "transactionHash": "0x35a7d0f5b2b31b0ce0c51af867eaaf3fc29339c50504ead29a2ac3f0b8f1240b"
+    },
+    "1548701970487": {
+      "events": {},
+      "links": {},
+      "address": "0x23E2b13b08a22E9eEe431F862eC7A17aB1E99B98",
+      "transactionHash": "0xc4878babeeab0cdfc455cbb509605df18d62ec4f3d9630e839b7c11a5afd1235"
     }
   },
-  "schemaVersion": "2.0.1",
-  "updatedAt": "2019-01-27T10:22:53.131Z"
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-01-28T19:03:07.766Z"
 }

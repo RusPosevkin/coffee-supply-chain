@@ -5,7 +5,8 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": true,
@@ -24,7 +25,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x5da09b88"
     },
     {
       "constant": false,
@@ -38,7 +40,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x8ec4f505"
     },
     {
       "constant": false,
@@ -47,17 +50,18 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xdb0e6a2f"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610149806100206000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635da09b881461005c5780638ec4f505146100b7578063db0e6a2f146100fa575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100f8600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b34801561010657600080fd5b5061010f61011b565b005b6000919050565b50565b5600a165627a7a723058200a54dc851636e29ac60a8069f0f2f132aa799c575ce2e36c8d0cb638d6baafd70029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635da09b881461005c5780638ec4f505146100b7578063db0e6a2f146100fa575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100f8600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b34801561010657600080fd5b5061010f61011b565b005b6000919050565b50565b5600a165627a7a723058200a54dc851636e29ac60a8069f0f2f132aa799c575ce2e36c8d0cb638d6baafd70029",
+  "bytecode": "0x608060405234801561001057600080fd5b50610149806100206000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635da09b881461005c5780638ec4f505146100b7578063db0e6a2f146100fa575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100f8600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b34801561010657600080fd5b5061010f61011b565b005b6000919050565b50565b5600a165627a7a72305820dbb78c42a9392b3affb73b50784045f7a2523471605094e956396cd836e774e60029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635da09b881461005c5780638ec4f505146100b7578063db0e6a2f146100fa575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100f8600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b34801561010657600080fd5b5061010f61011b565b005b6000919050565b50565b5600a165627a7a72305820dbb78c42a9392b3affb73b50784045f7a2523471605094e956396cd836e774e60029",
   "sourceMap": "156:1108:4:-;;;414:31;8:9:-1;5:2;;;30:1;27;20:12;5:2;414:31:4;156:1108;;;;;;",
   "deployedSourceMap": "156:1108:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;630:74;;8:9:-1;5:2;;;30:1;27;20:12;5:2;630:74:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;765:68;;8:9:-1;5:2;;;30:1;27;20:12;5:2;765:68:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;901:45;;8:9:-1;5:2;;;30:1;27;20:12;5:2;901:45:4;;;;;;630:74;688:4;630:74;;;:::o;765:68::-;;:::o;901:45::-;:::o",
   "source": "pragma solidity ^0.4.24;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'RetailerRole' to manage this role - add, remove, check\ncontract RetailerRole {\n\n  // Define 2 events, one for Adding, and other for Removing\n  \n  // Define a struct 'retailers' by inheriting from 'Roles' library, struct Role\n\n  // In the constructor make the address that deploys this contract the 1st retailer\n  constructor() public {\n    \n  }\n\n  // Define a modifier that checks to see if msg.sender has the appropriate role\n  modifier onlyRetailer() {\n    \n    _;\n  }\n\n  // Define a function 'isRetailer' to check this role\n  function isRetailer(address account) public view returns (bool) {\n    \n  }\n\n  // Define a function 'addRetailer' that adds this role\n  function addRetailer(address account) public onlyRetailer {\n    \n  }\n\n  // Define a function 'renounceRetailer' to renounce this role\n  function renounceRetailer() public {\n    \n  }\n\n  // Define an internal function '_addRetailer' to add this role, called by 'addRetailer'\n  function _addRetailer(address account) internal {\n    \n  }\n\n  // Define an internal function '_removeRetailer' to remove this role, called by 'removeRetailer'\n  function _removeRetailer(address account) internal {\n    \n  }\n}",
-  "sourcePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+  "sourcePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/RetailerRole.sol",
   "ast": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/RetailerRole.sol",
     "exportedSymbols": {
       "RetailerRole": [
         291
@@ -78,7 +82,7 @@
         "src": "0:24:4"
       },
       {
-        "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/Roles.sol",
         "file": "./Roles.sol",
         "id": 250,
         "nodeType": "ImportDirective",
@@ -494,7 +498,7 @@
     "src": "0:1264:4"
   },
   "legacyAST": {
-    "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+    "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/RetailerRole.sol",
     "exportedSymbols": {
       "RetailerRole": [
         291
@@ -515,7 +519,7 @@
         "src": "0:24:4"
       },
       {
-        "absolutePath": "/Users/ruslanposevkin/Downloads/nd1309-Project-6b-Example-Template/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "absolutePath": "/Users/ruslanposevkin/Downloads/pharmacy-supply-chain/app/contracts/coffeeaccesscontrol/Roles.sol",
         "file": "./Roles.sol",
         "id": 250,
         "nodeType": "ImportDirective",
@@ -952,8 +956,14 @@
       "links": {},
       "address": "0x79051a2fafcc216a55d3897474012145d158f170",
       "transactionHash": "0xed82e51d22b49288c569f8e51f4ae839ff868a8009990407df0c6b0ce5fda91c"
+    },
+    "1548701970487": {
+      "events": {},
+      "links": {},
+      "address": "0x79051A2faFcC216A55d3897474012145d158F170",
+      "transactionHash": "0xca59945ad9e232353a7f34ce5dd7f363175d19a4b4fcfc427c57d2887c162396"
     }
   },
-  "schemaVersion": "2.0.1",
-  "updatedAt": "2019-01-27T10:22:53.123Z"
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-01-28T19:03:07.755Z"
 }

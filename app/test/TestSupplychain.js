@@ -14,7 +14,7 @@ contract('SupplyChain', function(accounts) {
     const originFarmLongitude = "144.341490"
     var productID = sku + upc
     const productNotes = "Best beans for Espresso"
-    const productPrice = web3.toWei(1, "ether")
+    const productPrice = web3.utils.toWei('1', "ether")
     var itemState = 0
     const distributorID = accounts[2]
     const retailerID = accounts[3]
