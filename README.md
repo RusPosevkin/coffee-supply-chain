@@ -3,9 +3,9 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 
 ## Prerequisites
 
-Truffle v5.0.3 (core: 5.0.3)
-Solidity - ^0.4.25 (solc-js)
-Node v10.14.1
+* Truffle v5.0.3 (core: 5.0.3)
+* Solidity - ^0.4.25 (solc-js)
+* Node v10.14.1
 
 ## How To Start
 1. Clone this repository
@@ -52,6 +52,7 @@ https://rinkeby.etherscan.io/address/0xb09e439d7d04637bf1897b70e07cccccbf77e292
 * Purchased - 0xaded69c30b2a17a533da7d20ca660586a85357af5f23935d573465f983a92aa2
 
 ### Deployment Log 
+```
 ⚠️  Important ⚠️
 If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
 
@@ -251,3 +252,4 @@ Summary
 =======
 > Total deployments:   6
 > Final cost:          0.09009146 ETH
+```
