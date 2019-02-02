@@ -2503,6 +2503,12 @@
     "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0xD980fFeF2727fd636b9F40D80C57983E35D90F25",
+      "transactionHash": "0xe737598f6d96b26acb3b5782d70c390623e4dd63174ed05b395dd7d22aeea85a"
+    },
     "4447": {
       "events": {},
       "links": {},
@@ -2538,10 +2544,28 @@
       "links": {},
       "address": "0xAe4cB0D770f0BaDA4A4d1C180DeCc1BD9b6D531B",
       "transactionHash": "0x85e1d5b03b7976bf76ce15cb9c05d19591f25fc599614e878b42bb899cb5df49"
+    },
+    "1549121761925": {
+      "events": {},
+      "links": {},
+      "address": "0x85eDa45Bc13997a554Fb94424b281a4A6306EddD",
+      "transactionHash": "0x030e14c8d3b38c55a3ff817e45459d5aedf051fed5d9e7220ebe954832ae60b0"
+    },
+    "1549123578351": {
+      "events": {},
+      "links": {},
+      "address": "0x3b394c4A5674c45B78F0B9B7bf12B8eaCd8F7422",
+      "transactionHash": "0x826b24eee6693844a265e9682715e7cdeaff55f800995b45504cdcf4a0f10fe5"
+    },
+    "1549123813207": {
+      "events": {},
+      "links": {},
+      "address": "0x2A76f1C82b3EDD4b33a9259FdEE38dFdD1fcb3B4",
+      "transactionHash": "0x697d48b678d28314e31e5bfb9ce32fcf8e4cdd35a33bab90d208cfde33b38794"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-01-31T16:38:57.259Z",
+  "updatedAt": "2019-02-02T16:27:13.619Z",
   "devdoc": {
     "methods": {}
   },
