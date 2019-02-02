@@ -36,10 +36,10 @@ npm run dev
 ```
 
 ## Deployed contract (Rinkeby) 
-Transaction ID – 0x16668341d7f7253e350ee081f97624fd6cb54dc4344eea90633ec832c4138f1a
-Contract ID – 0xB09E439d7D04637Bf1897b70e07CccCcBf77e292
+* Transaction ID – 0x16668341d7f7253e350ee081f97624fd6cb54dc4344eea90633ec832c4138f1a
+* Contract ID – 0xB09E439d7D04637Bf1897b70e07CccCcBf77e292
 
-https://rinkeby.etherscan.io/address/0xb09e439d7d04637bf1897b70e07cccccbf77e292
+* https://rinkeby.etherscan.io/address/0xb09e439d7d04637bf1897b70e07cccccbf77e292
 
 ### Transaction History 
 * Harvested - 0xd0f3b470e2a2ca6b2b1bf4f678cf2493f2626b817f34457bef7bd51f1b417a17
