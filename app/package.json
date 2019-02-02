@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
+    "ganache": "ganache-cli -m 'spirit supply whale amount human item harsh scare congress discover talent hamster'",
+    "compile": "./node_modules/.bin/truffle compile",
+    "migrate": "./node_modules/.bin/truffle migrate",
     "test": "./node_modules/.bin/truffle test"
   },
   "keywords": [],

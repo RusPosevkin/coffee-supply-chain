@@ -1,4 +1,39 @@
 # Coffee Supply Chain
+This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+
+## Prerequisites
+
+Truffle v5.0.3 (core: 5.0.3)
+Solidity - ^0.4.25 (solc-js)
+Node v10.14.1
+
+## How To Start
+1. Clone this repository
+2. Change directory to ```app``` folder and install all requisite npm packages:
+```
+cd app
+npm install
+```
+3. Launch ganache:
+```
+npm run ganache 
+```
+4. In a separate terminal window, Compile smart contracts:
+```
+npm run compile 
+```
+5. Migrate smart contracts to the locally running blockchain, ganache-cli:
+```
+npm run migrate 
+```
+6. Test smart contracts:
+```
+npm run test 
+```
+7. In a separate terminal window, launch the DApp:
+```
+npm run dev
+```
 
 ## Deployed contract (Rinkeby) 
 Transaction ID – 0x16668341d7f7253e350ee081f97624fd6cb54dc4344eea90633ec832c4138f1a
