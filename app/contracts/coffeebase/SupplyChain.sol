@@ -1,6 +1,10 @@
 pragma solidity ^0.4.24;
+import '../coffeeaccesscontrol/ConsumerRole.sol';
+import '../coffeeaccesscontrol/RetailerRole.sol';
+import '../coffeeaccesscontrol/DistributorRole.sol';
+
 // Define a contract 'Supplychain'
-contract SupplyChain {
+contract SupplyChain is ConsumerRole, RetailerRole, DistributorRole {
 
   // Define 'owner'
   address owner;
