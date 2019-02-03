@@ -15,7 +15,7 @@ Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. 
 * **Retailer** – receive coffee palettes
 * **Consumer** – buy coffee items 
 
-Different steps that coffee beans goes through until it be bought by consumer showed in (activity diagram)(#activity-diagram).
+Different steps that coffee beans goes through until it be bought by consumer showed in [activity diagram](#activity-diagram).
 
 ### User Interface
 
