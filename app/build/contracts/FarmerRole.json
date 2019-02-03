@@ -2504,10 +2504,37 @@
   },
   "networks": {
     "4": {
-      "events": {},
+      "events": {
+        "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerAdded",
+          "type": "event",
+          "signature": "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0"
+        },
+        "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerRemoved",
+          "type": "event",
+          "signature": "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2"
+        }
+      },
       "links": {},
-      "address": "0xec105bf038e59e961C0D499505991BA7b3d93Ec1",
-      "transactionHash": "0x66582fedda242b4a93dc37e12e25571a31d3bea843abe8a318035b9f8f56d844"
+      "address": "0x9b2B9869a1DA2b85e5C50168aC38dE2053f09A9f",
+      "transactionHash": "0xb0570f16c03f2b334e12c2b0c4b2c86851030148f08ef0c28bc1f1b1f318297b"
     },
     "4447": {
       "events": {},
@@ -2565,5 +2592,5 @@
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-02-02T16:27:13.630Z"
+  "updatedAt": "2019-02-03T18:24:58.898Z"
 }
