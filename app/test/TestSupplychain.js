@@ -42,6 +42,7 @@ contract('SupplyChain', function(accounts) {
     console.log("Distributor: accounts[2] ", accounts[2])
     console.log("Retailer: accounts[3] ", accounts[3])
     console.log("Consumer: accounts[4] ", accounts[4])
+    
 
     // 1st Test
     it("Testing smart contract function harvestItem() that allows a farmer to harvest coffee", async() => {
@@ -96,6 +97,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function buyItem() that allows a distributor to buy coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
 
+        await supplyChain.addDistributor(distributorID);
         await supplyChain.buyItem(upc, {from: distributorID, value: productPrice});
         
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
@@ -125,6 +127,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function receiveItem() that allows a retailer to mark coffee received", async() => {
         const supplyChain = await SupplyChain.deployed()
 
+        await supplyChain.addRetailer(retailerID);
         await supplyChain.receiveItem(upc, {from: retailerID});
         
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
@@ -139,6 +142,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function purchaseItem() that allows a consumer to purchase coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
 
+        await supplyChain.addConsumer(consumerID);
         await supplyChain.purchaseItem(upc, {from: consumerID});
         
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
