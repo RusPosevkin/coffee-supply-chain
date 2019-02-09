@@ -60,6 +60,9 @@ This section contains IDs of all transactions that was produced with concrete pr
 
 ## How To Start
 1. Clone this repository
+```
+git clone https://github.com/RusPosevkin/coffee-supply-chain.git
+```
 2. Change directory to ```app``` folder and install all requisite npm packages:
 ```
 cd app
